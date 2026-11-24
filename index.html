@@ -14,6 +14,62 @@
     <meta property="og:description" content="Klare ruder og personlig vinduespudsning i Aarhus og omegn.">
     <meta property="og:locale" content="da_DK">
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Structured data: erstat eksempel-domænet med den offentlige adresse ved udgivelse. -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://DIN-DOMÆNE-EKSEMPEL.dk/#organization",
+      "name": "KlarRude",
+      "description": "Klare ruder. En lettere hverdag.",
+      "url": "https://DIN-DOMÆNE-EKSEMPEL.dk/",
+      "telephone": "+45 86 12 34 56",
+      "email": "hej@klarrude.dk",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Klarrudevej 12",
+        "postalCode": "8000",
+        "addressLocality": "Aarhus C",
+        "addressCountry": "DK"
+      },
+      "areaServed": [
+        "Aarhus",
+        "Risskov",
+        "Viby",
+        "Højbjerg",
+        "Brabrand",
+        "nærliggende områder"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://DIN-DOMÆNE-EKSEMPEL.dk/#website",
+      "url": "https://DIN-DOMÆNE-EKSEMPEL.dk/",
+      "name": "KlarRude",
+      "inLanguage": "da-DK",
+      "publisher": {
+        "@id": "https://DIN-DOMÆNE-EKSEMPEL.dk/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://DIN-DOMÆNE-EKSEMPEL.dk/index.html#webpage",
+      "url": "https://DIN-DOMÆNE-EKSEMPEL.dk/index.html",
+      "name": "KlarRude – vinduespudsning i Aarhus",
+      "description": "Klare ruder og personlig vinduespudsning i Aarhus og omegn.",
+      "inLanguage": "da-DK",
+      "isPartOf": {
+        "@id": "https://DIN-DOMÆNE-EKSEMPEL.dk/#website"
+      },
+      "about": {
+        "@id": "https://DIN-DOMÆNE-EKSEMPEL.dk/#organization"
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
     <!-- Fælles header og navigation -->
